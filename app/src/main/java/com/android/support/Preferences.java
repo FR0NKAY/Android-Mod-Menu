@@ -8,6 +8,10 @@ import android.os.Build;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+import org.lsposed.lsparanoid.Obfuscate;
+
+@Obfuscate
+
 public class Preferences {
     private static SharedPreferences sharedPreferences;
     private static Preferences prefsInstance;
