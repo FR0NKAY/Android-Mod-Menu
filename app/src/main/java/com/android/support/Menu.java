@@ -66,6 +66,10 @@ import static android.widget.RelativeLayout.ALIGN_PARENT_RIGHT;
 
 import org.xml.sax.ErrorHandler;
 
+import org.lsposed.lsparanoid.Obfuscate;
+
+@Obfuscate
+
 public class Menu {
     //********** Here you can easly change the menu appearance **********//
 
