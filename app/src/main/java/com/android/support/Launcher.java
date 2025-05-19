@@ -7,6 +7,10 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.view.View;
 
+import org.lsposed.lsparanoid.Obfuscate;
+
+@Obfuscate
+
 public class Launcher extends Service {
 
     Menu menu;
