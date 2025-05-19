@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import org.lsposed.lsparanoid.Obfuscate;
+
+@Obfuscate
+
 public class MainActivity extends Activity {
 
     //Only if you have changed MainActivity to yours and you wanna call game's activity.
