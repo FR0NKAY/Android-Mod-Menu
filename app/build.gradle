@@ -1,4 +1,20 @@
-apply plugin: 'com.android.application'
+
+plugins {
+    id 'com.android.application'
+    id 'org.lsposed.lsparanoid'
+    id 'top.niunaijun.blackobfuscator'
+}
+
+lsparanoid {
+    seed = 729363890
+}
+
+BlackObfuscator {
+    enabled true
+    depth 2
+    obfClass = ["com.android.support"]
+}
+
 
 android {
     compileSdkVersion 34
