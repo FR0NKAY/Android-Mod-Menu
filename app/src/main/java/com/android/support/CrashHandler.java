@@ -45,6 +45,9 @@ import java.lang.Thread.UncaughtExceptionHandler;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.lsposed.lsparanoid.Obfuscate;
+
+@Obfuscate
 public final class CrashHandler {
 
     public static final UncaughtExceptionHandler DEFAULT_UNCAUGHT_EXCEPTION_HANDLER = Thread.getDefaultUncaughtExceptionHandler();
