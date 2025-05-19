@@ -9,6 +9,10 @@ import android.os.Handler;
 import android.provider.Settings;
 import android.widget.Toast;
 
+import org.lsposed.lsparanoid.Obfuscate;
+
+@Obfuscate
+
 public class Main {
 
     //Load lib
